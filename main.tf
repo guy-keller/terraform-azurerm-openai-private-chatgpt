@@ -8,7 +8,7 @@
 # 4.) Store the OpenAI account and model details in the key vault.
 module "openai" {
   source  = "Pwd9000-ML/openai-service/azurerm"
-  version = "1.1.0"
+  version = "1.1.5"
 
   #common
   location = var.location
